@@ -3,7 +3,7 @@
 
 ---
 
-**Pancheng Zhao**<sup>1</sup> · [**Peng Xu**]([Homepage of Peng Xu](https://www.pengxu.net/))<sup>2+</sup> · **Pengda Qin**<sup>3</sup> · [**Deng-Ping Fan**]([Deng-Ping Fan (dengpingfan.github.io)](https://dengpingfan.github.io/))<sup>1</sup> · [**Zhicheng Zhang**]([zzcheng.top](https://zzcheng.top/))<sup>1</sup> · [**Guoli Jia**]([Guoli Jia（贾国力） (exped1230.github.io)](https://exped1230.github.io/))<sup>1</sup> · [**Bowen Zhou**]([清华大学 周伯文--中文主页--首页 (tsinghua.edu.cn)](http://web.ee.tsinghua.edu.cn/zhoubowen/zh_CN/index.htm))<sup>2</sup> · [**Jufeng Yang**]([计算机视觉实验室 (nankai.edu.cn)](https://cv.nankai.edu.cn/))<sup>1</sup>
+**Pancheng Zhao**<sup>1</sup> · [**Peng Xu**](https://www.pengxu.net/)<sup>2+</sup> · **Pengda Qin**<sup>3</sup> · [**Deng-Ping Fan**](https://dengpingfan.github.io/))<sup>1</sup> · [**Zhicheng Zhang**](https://zzcheng.top/)<sup>1</sup> · [**Guoli Jia**](https://exped1230.github.io/)<sup>1</sup> · [**Bowen Zhou**](http://web.ee.tsinghua.edu.cn/zhoubowen/zh_CN/index.htm)<sup>2</sup> · [**Jufeng Yang**](https://cv.nankai.edu.cn/)<sup>1</sup>
 
 <sup>1</sup>College of Computer Science, Nankai University · <sup>2</sup>Department of Electronic Engineering, Tsinghua University · <sup>3</sup>Alibaba Group 
 
@@ -11,18 +11,12 @@
 
 **CVPR 2024**
 
-<a href=""><img src='https://img.shields.io/badge/arXiv-LAKE RED-red' alt='Paper PDF'></a>
-
-<a href=''><img src='https://img.shields.io/badge/Official Version-LAKE RED-blue' alt='Project Page'></a>
-
-<a href=''><img src='https://img.shields.io/badge/Chinese Version-LAKE RED-yellow' alt='Project Page'></a>
-
-<a href='https://depth-anything.github.io'><img src='https://img.shields.io/badge/Project_Page-LAKE RED-green' alt='Project Page'></a>
+<a href=""><img src='https://img.shields.io/badge/arXiv-LAKE RED-red' alt='Paper PDF'></a><a href=''><img src='https://img.shields.io/badge/Official Version-LAKE RED-blue' alt='Project Page'></a><a href=''><img src='https://img.shields.io/badge/Chinese Version-LAKE RED-yellow' alt='Project Page'></a><a href='https://depth-anything.github.io'><img src='https://img.shields.io/badge/Project_Page-LAKE RED-green' alt='Project Page'></a>
 </div>
 
 
 
-![teaser](assets/teaser.pdf)
+![teaser](assets/teaser.jpg)
 
 ## News
 
