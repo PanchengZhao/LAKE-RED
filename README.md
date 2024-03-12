@@ -1,9 +1,7 @@
-<img src="assets/icon.png" width="50%" align="middle">
+<div align=center>  <img src="assets/icon.png" width=60%>
 
 <div align="center">
 <h3>LAKE-RED: Camouflaged Images Generation by Latent Background Knowledge Retrieval-Augmented Diffusion</h3>
-
-
 ---
 
 **Pancheng Zhao**<sup>1</sup> · [**Peng Xu**](https://www.pengxu.net/)<sup>2+</sup> · **Pengda Qin**<sup>3</sup> · [**Deng-Ping Fan**](https://dengpingfan.github.io/)<sup>1</sup> · [**Zhicheng Zhang**](https://zzcheng.top/)<sup>1</sup> · [**Guoli Jia**](https://exped1230.github.io/)<sup>1</sup> · [**Bowen Zhou**](http://web.ee.tsinghua.edu.cn/zhoubowen/zh_CN/index.htm)<sup>2</sup> · [**Jufeng Yang**](https://cv.nankai.edu.cn/)<sup>1</sup>
