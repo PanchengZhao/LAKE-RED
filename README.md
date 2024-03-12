@@ -1,4 +1,4 @@
-<div align=center>  <img src="assets/icon.png" width=60%>
+<div align=center>  <img src="assets/icon.png" width=60%></div>
 
 <div align="center">
 <h3>LAKE-RED: Camouflaged Images Generation by Latent Background Knowledge Retrieval-Augmented Diffusion</h3>
