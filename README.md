@@ -23,8 +23,9 @@
 
 ## News
 
-* **2024-03-11:** Creating repository. The Code will come soon ...
-* **2024-02-27:** LAKE-RED has been accepted to CVPR 2024！
+* **2024-03-17:** **Basic code** uploaded. **Data, checkpoint and more code** will come soon ...
+* **2024-03-11:** **Creating repository.** The Code will come soon ...
+* **2024-02-27:** LAKE-RED has been accepted to **CVPR 2024**！
 
 ## Citation
 
@@ -38,3 +39,7 @@ If you find this project useful, please consider citing:
       year = {2024},
 }
 ```
+
+## Acknowledgements
+
+This code borrows heavily from [latent-diffusion-inpainting](https://github.com/nickyisadog/latent-diffusion-inpainting), thanks the contribution of [nickyisadog](https://github.com/nickyisadog)
