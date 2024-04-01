@@ -19,7 +19,7 @@
 
 
 
-![teaser](assets/teaser.jpg)
+![teaser](assets/GIF_m_min_cut.gif)
 
 ## News
 
