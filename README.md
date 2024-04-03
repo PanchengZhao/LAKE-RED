@@ -14,7 +14,7 @@
 
 **CVPR 2024**
 
-<a href=""><img src='https://img.shields.io/badge/arXiv-LAKE RED-red' alt='Paper PDF'></a>	<a href=''><img src='https://img.shields.io/badge/Official Version-LAKE RED-blue' alt='Project Page'></a>	<a href=''><img src='https://img.shields.io/badge/Chinese Version-LAKE RED-yellow' alt='Project Page'></a>	<a href='https://depth-anything.github.io'><img src='https://img.shields.io/badge/Project_Page-LAKE RED-green' alt='Project Page'></a>
+<a href="http://arxiv.org/abs/2404.00292"><img src='https://img.shields.io/badge/arXiv-LAKE RED-red' alt='Paper PDF'></a>	<a href=''><img src='https://img.shields.io/badge/Official Version-LAKE RED-blue' alt='Project Page'></a>	<a href='https://zhaopancheng.top/publication/LAKERED_CVPR24'><img src='https://img.shields.io/badge/Project_Page-LAKE RED-green' alt='Project Page'></a>
 </div>
 
 
@@ -23,6 +23,7 @@
 
 ## News
 
+* **2024-04-03:** The **preprint** is now available on arXiv.
 * **2024-03-17:** **Basic code** uploaded. **Data, checkpoint and more code** will come soon ...
 * **2024-03-11:** **Creating repository.** The Code will come soon ...
 * **2024-02-27:** LAKE-RED has been accepted to **CVPR 2024**！
