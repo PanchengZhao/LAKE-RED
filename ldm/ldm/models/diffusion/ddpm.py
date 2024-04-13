@@ -1454,6 +1454,7 @@ class DiffusionWrapper(pl.LightningModule):
         self.LR_config = LR_config
         if LR_config['bg_retrieval']:
             self.SBG_module = BKRA(LR_config)
+            # self.BKRA_module = BKRA(LR_config)
         assert self.conditioning_key in [None, 'concat', 'crossattn', 'hybrid', 'adm']
 
     def forward(self, x, t, x_start, c_concat: list = None, c_crossattn: list = None):
@@ -1462,6 +1463,7 @@ class DiffusionWrapper(pl.LightningModule):
         elif self.conditioning_key == 'concat':
             if self.LR_config['bg_retrieval']:
                 c_concat, bgrec_loss = self.SBG_module(c_concat, x_start)
+                # c_concat, bgrec_loss = self.BKRA_module(c_concat, x_start)
             xc = torch.cat([x] + c_concat, dim=1)
             out = self.diffusion_model(xc, t)
         elif self.conditioning_key == 'crossattn':
@@ -1564,21 +1566,27 @@ class BKRA(nn.Module):
     def forward(self, cond, x_start):
         fg, mask = cond[0].split(3, 1) # b, 3, 128, 128
         
-        # little obeject
+        # Extremely small obeject
         if not self.training:
             if (1 - mask).sum() == 0:
                 return cond,0
-        
+        # (1) LMP to extract the forground features [vec_fg]
         vec_fg = self.LMP(fg, mask, self.n_super_pix, 5) # b n 3
+        
+        # (2) BKRM to get the background related features [vec_bg]
         vec_fg_q = self.mlp_in(vec_fg)
         code_book = self.bg_embed.transpose(1,0).unsqueeze(0).repeat(vec_fg_q.shape[0], 1, 1).to(fg.device)
         bg_emb = self.crossAttn(vec_fg_q, code_book)
         vec_bg = self.mlp_out(bg_emb)
         vec_bg = rearrange(vec_bg, 'b n c -> b c n')
-        # expand->concate->fuse
+        
+        # (3) Reasoning enhancement:
+        # upsample->concate->fuse
         vec_bg = vec_bg.unsqueeze(3).expand(-1,-1, -1, self.n_super_pix)
         vec_bg = torch.nn.functional.interpolate(vec_bg, size=[128, 128], mode='nearest')
         fg2bg = self.fuse(torch.cat((vec_bg, fg),dim=1))
+        
+        # (4) Background feature injection to get new cond
         new_fg = fg*(1-mask) + fg2bg*mask
         new_cond = torch.cat((new_fg, mask), dim=1)
         

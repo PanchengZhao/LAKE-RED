@@ -155,8 +155,6 @@ class InpaintingTrain_ldm(Dataset):
         self.data_root=data_root
         self.img_paths = sorted(_list_image_files_recursively(os.path.join(self.data_root, 'images')))
         self.mask_paths = sorted(_list_image_files_recursively(os.path.join(self.data_root, 'masks')))
-        with open(os.path.join(self.data_root, 'caption.json')) as f:
-            self.caption = json.load(f)
                     
     def __len__(self):
         return len(self.mask_paths)
@@ -182,13 +180,9 @@ class InpaintingTrain_ldm(Dataset):
         
         mask = torch.from_numpy(mask)
         masked_image = (1 - mask) * image
-        
-        prompt = self.caption[self.img_paths[i].split('/')[-1]]
 
         batch = {"image": np.squeeze(image,0), "mask": np.squeeze(mask,0), "masked_image": np.squeeze(masked_image,0)}
         for k in batch:
             batch[k] = batch[k] * 2.0 - 1.0
-
-        batch["prompt"] = prompt
         
         return batch

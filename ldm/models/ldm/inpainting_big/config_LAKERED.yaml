@@ -98,7 +98,7 @@ data:
         crop_size: 256
         state: train
     validation:
-      target: /mnt/sda/zpc/Dataset/COD/COD_Diff_/validation_tiny
+      target: /mnt/sda/zpc/Dataset/COD/COD_Diff_/validation
       params:
         size: 512
         crop_size: 256
