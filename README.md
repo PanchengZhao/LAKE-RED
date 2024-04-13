@@ -20,8 +20,7 @@
 
 
 <center class="half">
-<img src="assets/GIF_b_small.gif" width=250/>
-<img src="assets/GIF_c_small.gif" width=250/>
+<img src="assets/GIF_b_small.gif" width=250/><img src="assets/GIF_c_small.gif" width=250/>
 </center>
 
 
