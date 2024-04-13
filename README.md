@@ -19,10 +19,10 @@
 
 
 
-<figure class="half">     
-  <img src="assets/GIF_b_small.gif">     
-  <img src="assets/GIF_c_small.gif"> 
-</figure>
+<center class="half">
+<img src="assets/GIF_b_small.gif" width=350/>
+<img src="assets/GIF_c_small.gif" width=350/>
+</center>
 
 
 
@@ -203,6 +203,8 @@ If you find this project useful, please consider citing:
       year = {2024},
 }
 ```
+
+
 
 ## Acknowledgements
 
