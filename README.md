@@ -64,15 +64,15 @@ conda activate ldm
 
 We collected and organized the dataset LAKERED from existing datasets. The training set is from COD10K and CAMO, and testing set is including three subsets: Camouflaged Objects (CO), Salient Objects (SO), and General Objects (GO).
 
-| Datasets | GoogleDrive | [BaiduNetdisk](https://pan.baidu.com/s/1KsAZuEsMG8n5WICWKaOgsw?pwd=v245)(v245) |
-| :------: | :---------: | :----------------------------------------------------------: |
+| Datasets | [GoogleDrive](https://drive.google.com/file/d/1M96ipKc3nVK_Q_LViM6t9UjT8sayRxuZ/view?usp=sharing) | [BaiduNetdisk](https://pan.baidu.com/s/1KsAZuEsMG8n5WICWKaOgsw?pwd=v245)(v245) |
+| :------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 ##### Results:
 
 The results of this paper can be downloaded at the following link：
 
-| Results | GoogleDrive | [BaiduNetdisk](https://pan.baidu.com/s/1XNWLDGRrKEUufboTMSTFhw?pwd=berx)(berx) |
-| :-----: | :---------: | :----------------------------------------------------------: |
+| Results | [GoogleDrive](https://drive.google.com/file/d/1VjOCNOtbQVwf6pZ30ccoo2N84-dEecVN/view?usp=sharing) | [BaiduNetdisk](https://pan.baidu.com/s/1XNWLDGRrKEUufboTMSTFhw?pwd=berx)(berx) |
+| :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 ##### 
 
