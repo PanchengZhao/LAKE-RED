@@ -93,8 +93,8 @@ Pretrained LDM: ldm/models/ldm/inpainting_big/last.ckpt
 
 The Pre-trained LAKERED Model 
 
-| LAKERED | GoogleDrive | [BaiduNetdisk](https://pan.baidu.com/s/1EL-f4MVjPbLI5LRpHqYTWw?pwd=dzi8)(dzi8) |
-| :-----: | :---------: | :----------------------------------------------------------: |
+| LAKERED | [GoogleDrive](https://drive.google.com/file/d/18SsVydpBPVwYNS5G_D42Ns0TlHJRzM-D/view?usp=sharing) | [BaiduNetdisk](https://pan.baidu.com/s/1EL-f4MVjPbLI5LRpHqYTWw?pwd=dzi8)(dzi8) |
+| :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 Put it into specified path: 
 
