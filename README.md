@@ -31,8 +31,9 @@
 
 ## 1. News
 
-* 🔥**2024-04-13🔥:** Updated **Fig. 3**, including the computational flow of $\tilde{\mathrm{c} }^f$ and some of the variable names. The latest version can be download on [**arXiv**](http://arxiv.org/abs/2404.00292)（After 16 Apr 2024 00:00:00 GMT.）
-* 🔥**2024-04-13🔥:** **Full Code, Dataset, and model weight** have been released!
+* 🔥**2024-07-15🔥:** Revised a misspelling in **Fig. 2** , and an error in **Equ. 4**. The latest version can be download on [**arXiv**](http://arxiv.org/abs/2404.00292)
+* **2024-04-13:** Updated **Fig. 3**, including the computational flow of $\tilde{\mathrm{c} }^f$ and some of the variable names. The latest version can be download on [**arXiv**](http://arxiv.org/abs/2404.00292)（After 16 Apr 2024 00:00:00 GMT.）
+* **2024-04-13:** **Full Code, Dataset, and model weight** have been released!
 * **2024-04-03:** The **preprint** is now available on [**arXiv**](http://arxiv.org/abs/2404.00292).
 * **2024-03-17:** **Basic code** uploaded. **Data, checkpoint and more code** will come soon ...
 * **2024-03-11:** **Creating repository.** The Code will come soon ...
