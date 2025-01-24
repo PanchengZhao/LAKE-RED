@@ -1,0 +1,222 @@
+{
+    "COD_COD10K_COD10K-CAM-4-Amphibian-67-Frog-4784.png": [
+        "LDM_Repaint",
+        "LDM_base",
+        "LCGNet",
+        "DCI",
+        "TFill",
+        "AdaIN",
+        "AB",
+        "Ours",
+        "CI"
+    ],
+    "COD_COD10K_COD10K-CAM-1-Aquatic-15-SeaHorse-1110.png": [
+        "AB",
+        "Ours",
+        "LDM_Repaint",
+        "CI",
+        "LCGNet",
+        "AdaIN",
+        "LDM_base",
+        "TFill",
+        "DCI"
+    ],
+    "COD_COD10K_COD10K-CAM-2-Terrestrial-28-Deer-1762.png": [
+        "LCGNet",
+        "Ours",
+        "TFill",
+        "LDM_base",
+        "AB",
+        "CI",
+        "AdaIN",
+        "DCI",
+        "LDM_Repaint"
+    ],
+    "COD_CAMO_camourflage_00018.png": [
+        "LCGNet",
+        "AB",
+        "AdaIN",
+        "DCI",
+        "TFill",
+        "Ours",
+        "LDM_Repaint",
+        "CI",
+        "LDM_base"
+    ],
+    "COD_CAMO_camourflage_00061.png": [
+        "LDM_Repaint",
+        "LCGNet",
+        "LDM_base",
+        "AB",
+        "DCI",
+        "TFill",
+        "CI",
+        "AdaIN",
+        "Ours"
+    ],
+    "COD_CAMO_camourflage_00064.png": [
+        "Ours",
+        "LDM_base",
+        "DCI",
+        "AdaIN",
+        "LCGNet",
+        "AB",
+        "TFill",
+        "CI",
+        "LDM_Repaint"
+    ],
+    "COD_CAMO_camourflage_00090.png": [
+        "CI",
+        "Ours",
+        "TFill",
+        "DCI",
+        "LDM_Repaint",
+        "LCGNet",
+        "AB",
+        "AdaIN",
+        "LDM_base"
+    ],
+    "COD_CAMO_camourflage_00098.png": [
+        "CI",
+        "AB",
+        "LDM_Repaint",
+        "Ours",
+        "DCI",
+        "TFill",
+        "LDM_base",
+        "LCGNet",
+        "AdaIN"
+    ],
+    "COD_CAMO_camourflage_00122.png": [
+        "AB",
+        "LCGNet",
+        "LDM_Repaint",
+        "CI",
+        "LDM_base",
+        "DCI",
+        "Ours",
+        "AdaIN",
+        "TFill"
+    ],
+    "COD_CAMO_camourflage_00124.png": [
+        "LDM_base",
+        "TFill",
+        "LDM_Repaint",
+        "AdaIN",
+        "CI",
+        "DCI",
+        "Ours",
+        "LCGNet",
+        "AB"
+    ],
+    "COD_CAMO_camourflage_00145.png": [
+        "LDM_Repaint",
+        "AB",
+        "AdaIN",
+        "LDM_base",
+        "LCGNet",
+        "DCI",
+        "Ours",
+        "CI",
+        "TFill"
+    ],
+    "COD_CAMO_camourflage_00160.png": [
+        "AB",
+        "CI",
+        "LCGNet",
+        "Ours",
+        "TFill",
+        "DCI",
+        "LDM_Repaint",
+        "AdaIN",
+        "LDM_base"
+    ],
+    "COD_CAMO_camourflage_00207.png": [
+        "TFill",
+        "LDM_base",
+        "AB",
+        "CI",
+        "AdaIN",
+        "DCI",
+        "LCGNet",
+        "Ours",
+        "LDM_Repaint"
+    ],
+    "COD_CAMO_camourflage_00208.png": [
+        "TFill",
+        "LCGNet",
+        "CI",
+        "LDM_Repaint",
+        "LDM_base",
+        "DCI",
+        "AdaIN",
+        "Ours",
+        "AB"
+    ],
+    "COD_CAMO_camourflage_00422.png": [
+        "TFill",
+        "DCI",
+        "LDM_Repaint",
+        "LDM_base",
+        "AdaIN",
+        "CI",
+        "LCGNet",
+        "Ours",
+        "AB"
+    ],
+    "COD_CAMO_camourflage_00444.png": [
+        "LCGNet",
+        "LDM_base",
+        "LDM_Repaint",
+        "DCI",
+        "AdaIN",
+        "TFill",
+        "Ours",
+        "CI",
+        "AB"
+    ],
+    "COD_CAMO_camourflage_00515.png": [
+        "CI",
+        "AB",
+        "LCGNet",
+        "LDM_base",
+        "AdaIN",
+        "Ours",
+        "LDM_Repaint",
+        "DCI",
+        "TFill"
+    ],
+    "COD_CAMO_camourflage_00688.png": [
+        "AB",
+        "Ours",
+        "CI",
+        "LCGNet",
+        "LDM_Repaint",
+        "AdaIN",
+        "TFill",
+        "DCI",
+        "LDM_base"
+    ],
+    "COD_NC4K_1068.png": [
+        "AdaIN",
+        "TFill",
+        "LCGNet",
+        "DCI",
+        "LDM_base",
+        "CI",
+        "LDM_Repaint",
+        "Ours",
+        "AB"
+    ],
+    "COD_NC4K_1371.png": [
+        "LCGNet",
+        "AdaIN",
+        "DCI",
+        "CI",
+        "TFill",
+        "LDM_Repaint",
+        "Ours",
+        "AB",
+        "LDM_base"
+    ]
+}
